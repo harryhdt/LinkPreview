@@ -1,8 +1,7 @@
-```
-npm install
-npm run dev
-```
+# LinkPreview
+
+## Usage
 
 ```
-npm run deploy
+yourdomain.com?link=harryhdt.dev
 ```
