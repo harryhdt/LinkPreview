@@ -39,8 +39,11 @@ const indexHTML = `<!DOCTYPE html>
       <div style="margin-top:auto">
         Link Preview
       </div>
-      <div style="margin-top:16px">
-        Usage <a href="?link=harryhdt.dev" style="color:#ccc;text-decoration:none;background:#222;border:1px solid #00CC00">?link=url.com</a>
+      <div style="margin-top:16px;text-align:center;padding:0 3vw;">
+        <span>Usage</span>
+        <span style="color:#ccc;text-decoration:none;background:#222;border:1px solid #00CC00;border-right:0;word-break:break-all">?link=</span>
+        <span spellcheck="false" contenteditable style="margin-left:-2.38vw;border-left:0!important;color:#ccc;text-decoration:none;background:#222;border:1px solid #00CC00;word-break:break-all">url.com</span>
+        <span onclick="location.href='?link='+this.parentNode.querySelector('span+span+span').innerText" style="background:#444;display:inline-block;margin-left:-2vw;cursor:pointer">GO</span>
       </div>
       <marquee behavior="alternate" style="margin-top:auto">
         <a href="https://github.com/harryhdt/LinkPreview" target="_blank" style="margin-top:auto;display:inline-flex;align-items:center;font-size:16px;color:#aaa">
