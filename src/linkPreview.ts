@@ -28,7 +28,7 @@ const linkPreview = async (link: string) => {
     console.log(error);
     return {
       error: true,
-      message: "Something went wront, please check your link",
+      message: "Something went wrong, please check your link",
     };
   }
 };
