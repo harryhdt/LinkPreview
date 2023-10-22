@@ -23,6 +23,8 @@ const indexHTML = `<!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LinkPreview | Harry H</title>
+    <link rel="icon" type="image/webp" href="https://cdn.harryhdt.dev/logo-link-preview.webp" />
+    <meta name="description" content="Get link preview like title, description, favicon, thumbnail and etc.">
   </head>
   <body>
     <div id="app" style="font-family:monospace;background:black;color:#ccc;position:fixed;top:0;right:0;bottom:0;left:0;padding:16px;font-size:4vw;display:flex;align-items:center;justify-content:center;flex-direction:column">
